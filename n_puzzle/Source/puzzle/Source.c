@@ -219,7 +219,6 @@ void swap_r(int size)
 		swap(1, size);
 		swap(3, size);
 	}
-
 }
 void swap_u(int size)
 {

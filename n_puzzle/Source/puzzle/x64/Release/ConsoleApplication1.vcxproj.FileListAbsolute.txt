@@ -1,1 +1,2 @@
 D:\puzzie\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
+D:\DATA\GitHub\c-program\n_puzzle\Source\puzzle\x64\Release\ConsoleApplication1.exe
