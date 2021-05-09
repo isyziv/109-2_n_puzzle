@@ -4,5 +4,5 @@
 #### 2.Mult txt:Each puzzle have own file file.
 #### 2.mult csv:file will be save with Spreadsheet.
 ### 1.If you choose save as txt file (otherwise ypu can go to next step)you need to enter a character to separate two numbers.
-### 1.Data has been generated.Enjoy. :)
+### 1.Data has been generated.Enjoy :)
 ###### Copyright &copy; 2021 YOU-WEI,XU. All rights reserved.
