@@ -1,3 +1,4 @@
+//Copyright © 2021 YOU-WEI,XU. All rights reserved.
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
