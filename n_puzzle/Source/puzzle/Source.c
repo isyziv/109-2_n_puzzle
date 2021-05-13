@@ -445,7 +445,7 @@
 		moving = distance[1] - source[1];
 		if (moving > 0)
 		{
-			if (zero[0] == source[0] && zero[1]+1 == source[1])
+			if (zero[0] == source[0] && zero[1]< source[1])
 			{
 				if (zero[0] == size - 1)
 				{
@@ -471,7 +471,7 @@
 		}
 		if (moving < 0)
 		{
-			if (zero[0] == source[0]&& zero[1]-1 == source[1])
+			if (zero[0] == source[0]&& zero[1]> source[1])
 			{
 				if (zero[0]==size-1)
 				{
@@ -646,8 +646,8 @@
 	int main()
 	{
 		printf("Choose output location\n(0: screen 1: log.txt else Do not show)\n?");
-		//scanf("%d",&outtype);
-		outtype = 0;
+		scanf("%d",&outtype);
+		//outtype = 0;
 		if (outtype == 1)
 		{
 			save_data = fopen("log.txt", "w");
@@ -668,10 +668,10 @@
 		//define
 		for (int var = 1; var != (size * (size - 2)) + 1; var++)
 		{
-			if (var == 4)
+			/*if (var == 15)
 			{
 				puts(" ");
-			}
+			}*/
 			var% size == 0 ? special(var, size) : norval(var, size);
 		}
 		int target[3];
